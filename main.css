@@ -17,6 +17,11 @@ p{
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .trial{
 	margin: auto;
     padding; 0px;
