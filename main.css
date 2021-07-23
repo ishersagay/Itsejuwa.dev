@@ -1,0 +1,26 @@
+
+body {
+    background-color: #003b59;
+    color: white;
+    font-family: 'Trispace', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.trial{
+	margin: auto;
+    padding; 0px;
+    width: 700px;
+    height: 230px;
+	text-align: justify;
+}
