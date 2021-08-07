@@ -63,5 +63,6 @@ p {
     justify-content: center;
     width: 501px;
     text-align: justify;
-    padding-left: 465px;
+    margin-left: auto;
+    margin-right: auto;
 }
