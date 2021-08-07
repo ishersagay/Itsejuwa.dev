@@ -1,31 +1,67 @@
-
-body {
-    background-color: #003b59;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #B980F0;
+    font-family: "Roboto", sans-serif;
     color: white;
-    font-family: 'Trispace', sans-serif;
+    scroll-behavior: smooth;
 }
-
+ul {
+    list-style: none;
+    display: inline;
+    font-size: 30px;
+}
+ul :link {
+    text-decoration: none;
+}
+ul :hover {
+    text-decoration: underline;
+}
+nav {
+    background: #B6F080;
+    height: 89px;
+}
+#home {
+    height: 1024px;
+    width: 100%;
+    display: inline-block;
+}
+#section1 {
+    height: 1024px;
+    width: 100%;
+    display: inline-block;
+}
+#section2 {
+    height: 1024px;
+    width: 100%;
+    display: inline-block;
+}
+#section3 {
+    height: 1024px;
+    width: 100%;
+    display: inline-block;
+}
+#section4 {
+    height: 1024px;
+    width: 100%;
+    display: inline-block;
+}
 h1 {
     text-align: center;
+    font-size: 100px;
 }
-
 h2 {
     text-align: center;
+    font-size: 40px;
 }
-
-p{
+h3 {
     text-align: center;
+    font-size: 30px;
 }
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-.trial{
-	margin: auto;
-    padding; 0px;
-    width: 700px;
-    height: 230px;
-	text-align: justify;
+p {
+    justify-content: center;
+    width: 501px;
+    text-align: justify;
+    padding-left: 465px;
 }
