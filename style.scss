@@ -6,7 +6,6 @@ $header-three-title-font-size: 30px;
 $navbar-color: #B6F080;
 $primary-font: "Roboto", sans-serif;
 * {
-  background-color: $primary-background-color;
   color: white;
   font-family: $primary-font;
   margin: 0;
@@ -25,10 +24,19 @@ h3 {
 
 
 header {
+
+  position: relative;
   h1 {
     font-size: $header-title-font-size;
     margin-top: 212px;
     text-align: center;
+  }
+
+  img.waves {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
   }
 
   h2::before,
@@ -64,40 +72,25 @@ header {
 
 #section1, #section2, #section3, #section4, #home {
   display: inline-block;
-  font-size: 100px;
-  height: 1024px;
-  margin: 0;
-  padding: 0;
+  height: 100vh;
   width: 100%;
 }
 
-img.waves {
-  width: 100%;
-}
+
 
 body {
+  background-color: $primary-background-color;
   nav{
 
     background-color: $navbar-color;
     height: 89px;
-    overflow: hidden;
-    position: fixed;
-    top: 1024px;
+    position: sticky;
+    //overflow: hidden;
+    top: 0;
     width: 100%;
     h3 {
       font-size: $header-three-title-font-size;
       text-align: center;
-    }
-    ul {
-      display: inline;
-      font-size: $header-three-title-font-size;
-      list-style: none;
-    }
-    ul :link {
-      text-decoration: none;
-    }
-    ul :hover{
-      text-decoration: underline;
     }
   }
 
