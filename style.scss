@@ -24,8 +24,8 @@ h3 {
 
 
 header {
-
-  position: relative;
+  height: 100vh;
+  width: 100vw;
   h1 {
     font-size: $header-title-font-size;
     margin-top: 212px;
@@ -38,6 +38,10 @@ header {
     position: absolute;
     bottom: 0;
   }
+
+.top__android {
+
+}
 
   h2::before,
   h2::after {
@@ -88,9 +92,19 @@ body {
     //overflow: hidden;
     top: 0;
     width: 100%;
+
+    display: flex;
+    flex-direction: row;
+
     h3 {
       font-size: $header-three-title-font-size;
-      text-align: center;
+    }
+
+    div {
+
+      a {
+        font-size: $header-three-title-font-size;
+      }
     }
   }
 
