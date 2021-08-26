@@ -1,189 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-$primary-background-color: #B980F0;
-$header-title-font-size: 100px;
-$header-two-title-font-size: 40px;
-$header-three-title-font-size: 30px;
-$navbar-color: #B6F080;
-$primary-font: "Roboto", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   color: white;
-  font-family: $primary-font;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
-}
+  scroll-behavior: smooth; }
+
 h2 {
-  font-size: $header-two-title-font-size;
-  text-align: center;
-}
+  font-size: 40px;
+  text-align: center; }
+
 h3 {
   font-size: 40px;
-  text-align: center;
-}
-
-//Code below is used to give style to the Header and implements the waves
+  text-align: center; }
 
 header {
   height: 100vh;
-  width: 100vw;
-  h1 {
-    font-size: $header-title-font-size;
+  width: 100vw; }
+  header h1 {
+    font-size: 100px;
     margin-top: 212px;
-    text-align: center;
-  }
-
-  img.waves {
+    text-align: center; }
+  header img.waves {
     width: 100%;
     height: auto;
     position: absolute;
-    bottom: 0;
-  }
-
-img.top__android {
-
-}
-//Typewriter feature below
-
-  h2::before,
-  h2::after {
+    bottom: 0; }
+  header h2::before,
+  header h2::after {
     bottom: 0;
     content: "";
     left: 0;
     position: absolute;
     right: 0;
-    top: 0;
-  }
-  h2::before {
+    top: 0; }
+  header h2::before {
     animation: typewriter 6s steps(18) forwards;
-    background: $primary-background-color;
-  }
-  h1::after {
+    background: #B980F0; }
+  header h1::after {
     background: black;
     width: .125em;
-    animation: typewriter 6s steps(18) forwards;
-  }
-  @keyframes typewriter {
-    to {
-      left: 100%;
-    }
-  }
-
-  h2 {
-    font-size: $header-two-title-font-size;
+    animation: typewriter 6s steps(18) forwards; }
+@keyframes typewriter {
+  to {
+    left: 100%; } }
+  header h2 {
+    font-size: 40px;
     position: relative;
-    text-align: center;
-  }
-}
+    text-align: center; }
 
 #section1, #section2, #section3, #home {
   display: inline-block;
   height: 100vh;
-  width: 100%;
-
-}
-
+  width: 100%; }
 
 body {
-  background-color: $primary-background-color;
-  nav{
-
-    background-color: $navbar-color;
+  background-color: #B980F0; }
+  body nav {
+    background-color: #B6F080;
     height: 89px;
     position: sticky;
-    //overflow: hidden;
     top: 0;
     width: 100%;
-
     display: flex;
-    flex-direction: row;
-
-    h3 {
-      font-size: $header-three-title-font-size;
-    }
-
-    div {
-      //This is for the Green nav bar
+    flex-direction: row; }
+    body nav h3 {
+      font-size: 30px; }
+    body nav div {
       margin-left: 436px;
-      margin-top: 28px;
-      a {
-        //This for the links within the Greenbar
-        font-size: $header-three-title-font-size;
+      margin-top: 28px; }
+      body nav div a {
+        font-size: 30px;
         margin-right: 46px;
-        text-decoration: none;
-      }
-    }
-  }
-  h2.head {
-    margin-top: 46px;
-  }
-  h3.title{
-    margin-top: 16px;
-  }
-  img.journey__laptop {
+        text-decoration: none; }
+  body h2.head {
+    margin-top: 46px; }
+  body h3.title {
+    margin-top: 16px; }
+  body img.journey__laptop {
     height: 250px;
-    width: 290px;
-
-  }
-
-  div.laptop {
+    width: 290px; }
+  body div.laptop {
     display: flex;
-    justify-content: center;
-
-  }
-
-  div.trial {
+    justify-content: center; }
+  body div.trial {
     height: 250px;
-    width: 290px;
-  }
-
-  p {
-    //This is for the paragraphs
+    width: 290px; }
+  body p {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     padding: 45px;
     text-align: justify;
-    width: 500px;
-  }
-
-  h2.projects__style {
-    margin-top: 93px;
-  }
-
-
-  img.leaning__phone {
+    width: 500px; }
+  body h2.projects__style {
+    margin-top: 93px; }
+  body img.leaning__phone {
     height: 342px;
     margin-left: 70vw;
-    width: 342px;
-  }
-h2.skills__stlye {
-  margin-top: 93px;
-}
-}
+    width: 342px; }
+  body img.project_tab {
+    margin-left: 294px; }
+  body h2.skills__stlye {
+    margin-top: 93px; }
+  body img.group {
+    margin-top: 114px;
+    margin-left: 186px; }
 
-footer {
-  h2{
-    margin-bottom: 443px;
-  }
-  div{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 271px;
-    img{
-      height: 80px;
-      margin-left: 39px;
-      margin-right: 39px;
-      width: 86px;
-    }
-  }
-  section {
-    padding: 0;
-    margin: 0;
-    img.bottom__android {
+footer h2 {
+  margin-bottom: 443px; }
+footer div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 271px; }
+  footer div img {
+    height: 80px;
+    margin-left: 39px;
+    margin-right: 39px;
+    width: 86px; }
+footer section {
+  padding: 0;
+  margin: 0; }
+  footer section img.bottom__android {
+    margin-left: 89.60vw; }
 
-      justify-content: flex-end;
-    }
-  }
-}
-
-//271
+/*# sourceMappingURL=style.css.map */
