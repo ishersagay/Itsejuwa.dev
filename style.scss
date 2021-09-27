@@ -156,9 +156,30 @@ body {
     margin-left: 70vw;
     width: 342px;
   }
+
+  div.projects {
+    border: solid lightcoral 2px;
+    grid-template-rows:  1fr;
+    grid-template-columns: 1fr 1fr;
+    button{
+      background-color: #B6F080;
+      border-radius: 17px;
+      height: 62px;
+      width: 224px;
+    }
+  }
+
+  img.project_tab {
+    margin-left: 294px;
+  }
 h2.skills__stlye {
   margin-top: 93px;
 }
+img.group {
+  margin-top: 114px;
+  margin-left: 186px;
+}
+
 }
 
 footer {
@@ -180,10 +201,21 @@ footer {
     padding: 0;
     margin: 0;
     img.bottom__android {
-
-      justify-content: flex-end;
+      margin-left: 89.60vw;
     }
   }
 }
 
-//271
+@media screen and (min-width: 375px ) {
+  header {
+    width: 100vw;
+    height: 100vh;
+    h1 {
+      font-size: 70px;
+    }
+  }
+
+  nav {
+
+  }
+}
