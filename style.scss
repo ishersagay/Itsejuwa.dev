@@ -1,143 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-$primary-background-color: #B980F0;
-$header-title-font-size: 100px;
-$header-two-title-font-size: 40px;
-$header-three-title-font-size: 30px;
-$navbar-color: #B6F080;
-$primary-font: "Roboto", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
   color: white;
-  font-family: $primary-font;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
-h2 {
-  font-size: $header-two-title-font-size;
-  text-align: center;
-}
-h3 {
-  font-size: 40px;
-  text-align: center;
-}
 
-//Code below is used to give style to the Header and implements the waves
+body {
+  background-color: #B980F0;
 
-header {
-  height: 100vh;
-  width: 100vw;
-  h1 {
-    font-size: $header-title-font-size;
+  #section1, #section2, #section3, #home {
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+  }
+
+  header {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  header h1 {
+    font-size: 100px;
     margin-top: 212px;
     text-align: center;
   }
 
-  img.waves {
+  header h2 {
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+  }
+
+  header img.waves {
     width: 100%;
     height: auto;
-    position: absolute;
     bottom: 0;
+    position: absolute;
   }
 
-img.top__android {
-
-}
-//Typewriter feature below
-
-  h2::before,
-  h2::after {
-    bottom: 0;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
+  .navigation-bar {
+    background-color: #B6F080;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    position: sticky;
     top: 0;
-  }
-  h2::before {
-    animation: typewriter 6s steps(18) forwards;
-    background: $primary-background-color;
-  }
-  h1::after {
-    background: black;
-    width: .125em;
-    animation: typewriter 6s steps(18) forwards;
-  }
-  @keyframes typewriter {
-    to {
-      left: 100%;
+    width: 100%;
+
+    & .nav-bar {
+      margin-left: 436px;
+      margin-top: 28px;
+    }
+
+    & h3 {
+      font-size: 30px;
+    }
+
+    & a {
+      font-size: 30px;
+      margin-right: 46px;
+      text-decoration: none;
     }
   }
 
   h2 {
-    font-size: $header-two-title-font-size;
-    position: relative;
+    font-size: 40px;
     text-align: center;
   }
-}
 
-#section1, #section2, #section3, #home {
-  display: inline-block;
-  height: 100vh;
-  width: 100%;
-
-}
-
-
-body {
-  background-color: $primary-background-color;
-  nav{
-
-    background-color: $navbar-color;
-    height: 89px;
-    position: sticky;
-    //overflow: hidden;
-    top: 0;
-    width: 100%;
-
-    display: flex;
-    flex-direction: row;
-
-    h3 {
-      font-size: $header-three-title-font-size;
-    }
-
-    div {
-      //This is for the Green nav bar
-      margin-left: 436px;
-      margin-top: 28px;
-      a {
-        //This for the links within the Greenbar
-        font-size: $header-three-title-font-size;
-        margin-right: 46px;
-        text-decoration: none;
-      }
-    }
-  }
-  h2.head {
-    margin-top: 46px;
-  }
-  h3.title{
-    margin-top: 16px;
-  }
-  img.journey__laptop {
-    height: 250px;
-    width: 290px;
-
+  h3 {
+    font-size: 40px;
+    text-align: center;
   }
 
-  div.laptop {
-    display: flex;
-    justify-content: center;
-
-  }
-
-  div.trial {
-    height: 250px;
-    width: 290px;
+  .about {
+    margin-top:80px;
   }
 
   p {
-    //This is for the paragraphs
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -146,76 +89,137 @@ body {
     width: 500px;
   }
 
-  h2.projects__style {
-    margin-top: 93px;
-  }
-
-
-  img.leaning__phone {
-    height: 342px;
-    margin-left: 70vw;
-    width: 342px;
-  }
-
-  div.projects {
-    border: solid lightcoral 2px;
-    grid-template-rows:  1fr;
-    grid-template-columns: 1fr 1fr;
-    button{
-      background-color: #B6F080;
-      border-radius: 17px;
-      height: 62px;
-      width: 224px;
-    }
-  }
-
-  img.project_tab {
-    margin-left: 294px;
-  }
-h2.skills__stlye {
-  margin-top: 93px;
-}
-img.group {
-  margin-top: 114px;
-  margin-left: 186px;
-}
-
-}
-
-footer {
-  h2{
-    margin-bottom: 443px;
-  }
-  div{
+  .laptop {
     display: flex;
     justify-content: center;
-    margin-bottom: 271px;
-    img{
-      height: 80px;
-      margin-left: 39px;
-      margin-right: 39px;
-      width: 86px;
-    }
   }
-  section {
-    padding: 0;
-    margin: 0;
-    img.bottom__android {
-      margin-left: 89.60vw;
-    }
+
+  .journey__laptop {
+    height: 250px;
+    width: 290px;
+  }
+
+  .leaning__phone {
+    height: 250px;
+    width: 290px;
+  }
+
+  .trial {
+    height: 250px;
+    width: 290px;
+  }
+
+}
+
+footer section {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+
+  & .bottom__android {
+    margin-left: 89vw;
   }
 }
 
-@media screen and (min-width: 375px ) {
-  header {
-    width: 100vw;
-    height: 100vh;
-    h1 {
-      font-size: 70px;
+
+@media only screen and (min-device-width: 320px)  {
+  body {
+    header h1 {
+      font-size: 100px;
+      margin-top: 212px;
     }
-  }
 
-  nav {
+    header h2 {
+      font-size: 40px;
+    }
 
+    header div.header-titles {
+      margin-top: 900px;
+    }
+
+    header img.waves {
+      width: 100%;
+      height: auto;
+      bottom: 0;
+      position: absolute;
+    }
+
+    .navigation-bar {
+      background-color: #B6F080;
+      display: flex;
+      flex-direction: row;
+      height: 80px;
+      position: sticky;
+      top: 0;
+      width: 100%;
+
+      & .nav-bar {
+        margin-left: 4px;
+        margin-top: 0px;
+      }
+
+      & h3 {
+        font-size: 40px;
+      }
+
+      & a {
+        font-size: 40px;
+        margin-right: 46px;
+        text-decoration: none;
+      }
+    }
+
+    h2 {
+      font-size: 60px;
+    }
+
+    h3 {
+      font-size: 50px;
+    }
+
+    .about {
+      margin-top: 80px;
+    }
+
+    p {
+      font-size: 32px;
+      padding: 45px;
+      width: 500px;
+    }
+
+    .laptop {
+      display: flex;
+      justify-content: center;
+    }
+
+    .journey__laptop {
+      height: 200px;
+      width: 138px;
+    }
+
+    .projects__style {
+      margin-top: 80px;
+    }
+
+    .leaning__phone {
+      height: 250px;
+      width: 290px;
+    }
+
+    .skills__style {
+      margin-top: 80px;
+    }
+
+    .trial {
+      height: 250px;
+      width: 100px;
+    }
+
+    footer section {
+      margin-bottom: 0px;
+      & .bottom__android {
+        margin-left: 80vw;
+      }
+    }
   }
 }
