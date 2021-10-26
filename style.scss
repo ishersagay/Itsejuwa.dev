@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #B980F0;
+
+  #section1, #section2, #section3, #home {
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+  }
+
+  header {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  header h1 {
+    font-size: 100px;
+    margin-top: 212px;
+    text-align: center;
+  }
+
+  header h2 {
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+  }
+
+  header img.waves {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    position: absolute;
+  }
+
+  .navigation-bar {
+    background-color: #B6F080;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+    & .nav-bar {
+      margin-left: 436px;
+      margin-top: 28px;
+    }
+
+    & h3 {
+      font-size: 30px;
+    }
+
+    & a {
+      font-size: 30px;
+      margin-right: 46px;
+      text-decoration: none;
+    }
+  }
+
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .about {
+    margin-top:80px;
+  }
+
+  p {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 45px;
+    text-align: justify;
+    width: 500px;
+  }
+
+  .laptop {
+    display: flex;
+    justify-content: center;
+  }
+
+  .journey__laptop {
+    height: 250px;
+    width: 290px;
+  }
+
+  .leaning__phone {
+    height: 250px;
+    width: 290px;
+  }
+
+  .trial {
+    height: 250px;
+    width: 290px;
+  }
+
+}
+
+footer section {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+
+  & .bottom__android {
+    margin-left: 89vw;
+  }
+}
+
+
+@media only screen and (min-device-width: 320px)  {
+  body {
+    header h1 {
+      font-size: 100px;
+      margin-top: 212px;
+    }
+
+    header h2 {
+      font-size: 40px;
+    }
+
+    header div.header-titles {
+      margin-top: 900px;
+    }
+
+    header img.waves {
+      width: 100%;
+      height: auto;
+      bottom: 0;
+      position: absolute;
+    }
+
+    .navigation-bar {
+      background-color: #B6F080;
+      display: flex;
+      flex-direction: row;
+      height: 80px;
+      position: sticky;
+      top: 0;
+      width: 100%;
+
+      & .nav-bar {
+        margin-left: 4px;
+        margin-top: 0px;
+      }
+
+      & h3 {
+        font-size: 40px;
+      }
+
+      & a {
+        font-size: 40px;
+        margin-right: 46px;
+        text-decoration: none;
+      }
+    }
+
+    h2 {
+      font-size: 60px;
+    }
+
+    h3 {
+      font-size: 50px;
+    }
+
+    .about {
+      margin-top: 80px;
+    }
+
+    p {
+      font-size: 32px;
+      padding: 45px;
+      width: 500px;
+    }
+
+    .laptop {
+      display: flex;
+      justify-content: center;
+    }
+
+    .journey__laptop {
+      height: 200px;
+      width: 138px;
+    }
+
+    .projects__style {
+      margin-top: 80px;
+    }
+
+    .leaning__phone {
+      height: 250px;
+      width: 290px;
+    }
+
+    .skills__style {
+      margin-top: 80px;
+    }
+
+    .trial {
+      height: 250px;
+      width: 100px;
+    }
+
+    footer section {
+      margin-bottom: 0px;
+      & .bottom__android {
+        margin-left: 80vw;
+      }
+    }
+  }
+}
