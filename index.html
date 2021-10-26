@@ -1,121 +1,135 @@
-<!doctype html>
-<html class="no-js" lang="en" xmlns="http://www.w3.org/1999/html">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Itsejuwa.dev</title>
-  <meta name="description" content="Itsejuwas Portfolio page">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Itsejuwa.dev</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 </head>
-<header id="home">
-  <h1>ITSEJUWA</h1>
-  <h2>SOFTWARE DEVELOPER</h2>
-  <img src ="waves.svg" class ="waves" alt ="Blue waves">
-  <img src="android.svg" class="top__android" alt="android">
-
-</header>
 <body>
-<nav>
-  <div>
+<div id="home" class="landing__home">
+    <header >
+        <div class="header-titles">
+            <h1>ITSEJUWA</h1>
+            <h2>SOFTWARE DEVELOPER</h2>
+        </div>
+        <img src="Images/waves.svg" class="waves" alt="Blue waves">
+        <img src="Images/android.svg" class="android__top" alt="android">
+    </header>
+</div>
+
+<nav class="navigation-bar">
     <h3><a href="#home">ITSEJUWA</a></h3>
-  </div>
-  <div>
-    <a href="#section1">About</a>
-    <a href="#section2">Projects</a>
-    <a href="#section3">Skills</a>
-    <a href="#section4">Contacts</a>
-  </div>
+    <div class="nav-bar">
+        <a href="#section1">About</a>
+        <a href="#section2">Projects</a>
+        <a href="#section3">Skills</a>
+        <a>Contacts</a>
+    </div>
 </nav>
-<div id="section1">
-  <h2 class="head">ABOUT</h2>
-  <div>
-    <h3 class="title">WHO IS ITSEJUWA?</h3>
-    <p>I’M A 19 YEAR OLD DEVELOPER WHO IS CURRENTLY
-      LEARNING WEB DESIGN AND FULL-STACK KOTLIN
-      DEVELOPMENT. I STUDIED COMPUTER SCIENCE AT
-      THE UNIVERSITY OF ESSEX, HOWEVER AFTER
-      COMPLETING MY FIRST YEAR I HAD COME
-      TO A GIANT CONCLUSION THAT UNIVERSITY
-      WASNT THE RIGHT LEARNING GROUND FOR ME
-    </p>
-  </div>
-  <div>
-    <h3>JOURNERY INTO SOFTWARE DEVELOPMENT</h3>
-    <div class="laptop">
-      <img src="Black Man : Black Woman Using Laptop A.svg" class="journey__laptop" alt="Black man using a laptop">
-      <P class="laptop__para">WITHOUT MAKING THIS SOUND LIKE A PERSONAL
-        STATEMENT, I’VE ALWAYS BEEN INTERESTED IN
-        SOFTWARE DEVELOPMENT SINCE I WAS 13. I WAS
-        BLESSED TO HAVE A FAMILY THAT SUPPORTED MY
-        DECISION, I STARTED LEARNING HOW TO PORGRAM
-        WITH AN INTRODUCTION SCRATCH, A YEAR LATER I
-        WOULD LATER ON STUMBLE UPON MY FIRST OOP
-        LANGUAGE CALLED JAVA WHERE I WOULD STUDY IT
-        FOR MY GCSEs WHERE I WOULD REALLY TAKE A HUGE
-        INTEREST INTO PROGRAMMING AND I WOULD DO SMALL
-        KOTLIN TASKS TO HONE IN MY SKILLS
-      </P>
-      <div class="trial"></div>
+<div id="section1" class="landing__one">
+    <div class="about">
+        <h2>ABOUT</h2>
+        <div>
+            <h3>WHO IS ITSEJUWA</h3>
+            <p>
+                I’M A 19 YEAR OLD DEVELOPER WHO IS CURRENTLY
+                LEARNING WEB DESIGN AND FULL-STACK KOTLIN
+                DEVELOPMENT. I STUDIED COMPUTER SCIENCE AT
+                THE UNIVERSITY OF ESSEX, HOWEVER AFTER
+                COMPLETING MY FIRST YEAR I HAD COME
+                TO A GIANT CONCLUSION THAT UNIVERSITY
+                WASN'T THE RIGHT LEARNING GROUND FOR ME
+            </p>
+        </div>
     </div>
 
-  </div>
-  <div>
-    <h3>HOBBIES</h3>
-    <p>DURING MY DOWNTIME I LIKE TO WATCH ANIME(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
-      YES I AM A WEEB, BUT WHEN I’M NOT BINGE WATCHING ANIME,
-      I LOVE TO WATCH YOUTUBE CONTENT CREATORS SUCH AS LINUS
-      TECH TIPS, MKBHD, CHROME UNBOXED AND MANY MORE. HOWEVER
-      WHEN I’M IN THE MOOD TO GO OUTSIDE AND SOCIALISE, I LIKE
-      TO GO TO MY LOCAL BASKETBALL COURT AND PLAY A PICK UP
-      GAME WITH ANYONE WHO IS THERE. I ALSO LIKE TO HELP OUT
-      AT MY YOUTH CHURCH WHERE I’M A MENTOR AND A LEADER,
-      THIS MEANS THAT I’MN SEEN AS A ROLE MODEL AND SOMEONE
-      THAT THE YOUTH AT MY CHURCH ARE ABLE TO TALK TO IF THEY
-      NEED ADVICE AND HELP
-    </p>
-  </div>
+    <h3>JOURNEY INTO SOFTWARE DEVELOPMENT</h3>
+    <div class="laptop">
+        <span>
+            <img src="Images/Black Man : Black Woman Using Laptop A.svg" class="journey__laptop" alt="Black man using a laptop">
+        </span>
+        <P class="laptop__para">
+            WITHOUT MAKING THIS SOUND LIKE A PERSONAL
+            STATEMENT, I’VE ALWAYS BEEN INTERESTED IN
+            SOFTWARE DEVELOPMENT SINCE I WAS 13. I WAS
+            BLESSED TO HAVE A FAMILY THAT SUPPORTED MY
+            DECISION, I STARTED LEARNING HOW TO PROGRAM
+            WITH AN INTRODUCTION SCRATCH, A YEAR LATER I
+            WOULD LATER ON STUMBLE UPON MY FIRST OOP
+            LANGUAGE CALLED JAVA WHERE I WOULD STUDY IT
+            FOR MY GCSEs WHERE I WOULD REALLY TAKE A HUGE
+            INTEREST INTO PROGRAMMING AND I WOULD DO SMALL
+            KOTLIN TASKS TO HONE IN MY SKILLS
+        </P>
+        <div class="trial"></div>
+    </div>
+
+    <div>
+        <h3>HOBBIES</h3>
+        <p>DURING MY DOWNTIME I LIKE TO WATCH ANIME(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+            YES I AM A WEEB, BUT WHEN I’M NOT BINGE WATCHING ANIME,
+            I LOVE TO WATCH YOUTUBE CONTENT CREATORS SUCH AS LINUS
+            TECH TIPS, MKBHD, CHROME UNBOXED AND MANY MORE. HOWEVER
+            WHEN I’M IN THE MOOD TO GO OUTSIDE AND SOCIALISE, I LIKE
+            TO GO TO MY LOCAL BASKETBALL COURT AND PLAY A PICK UP
+            GAME WITH ANYONE WHO IS THERE. I ALSO LIKE TO HELP OUT
+            AT MY YOUTH CHURCH WHERE I’M A MENTOR AND A LEADER,
+            THIS MEANS THAT I’MN SEEN AS A ROLE MODEL AND SOMEONE
+            THAT THE YOUTH AT MY CHURCH ARE ABLE TO TALK TO IF THEY
+            NEED ADVICE AND HELP
+        </p>
+    </div>
+
 </div>
-<div id="section2">
-  <h2 class="projects__style">PROJECTS</h2>
-  <div>
-    <img src="Black Man : Woman Using Mobile Phone B.svg" class="leaning__phone" alt="Black man leaning on a phone">
-  </div>
-  <div class="projects">
-<!--    <img src="Project%20tab.svg" class="project_tab" alt="Projects">-->
-    <button>Website</button>
-    <button>Morse Code</button>
-    <button>Kotlin Exercises</button>
-    <button>punk-api</button>
-    <button>Ticket-Tracker</button>
-  </div>
+
+<div id="section2" class="landing__two">
+    <h2 class="projects__style">PROJECTS</h2>
+    <div class="projects">
+        <img src="Images/Black Man : Woman Using Mobile Phone B.svg" class="leaning__phone" alt="Black man leaning on a phone">
+    </div>
 </div>
-<div id="section3">
-  <h2 class="skills__stlye">SKILLS</h2>
-  <div>
-    <img src="Group%202.svg" class="group" alt="skills bar">
-  </div>
+
+<div id="section3" class="landing__three">
+    <h2 class="skills__style">SKILLS</h2>
+    <div>
+        <div>
+            <p>KOTLIN</p>
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                60%
+            </div>
+        </div>
+        <div>
+            <p>JAVA</p>
+            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                40%
+            </div>
+        </div>
+    </div>
 </div>
+
 </body>
+
 <footer id="section4">
-  <h2 >CONTACTS</h2>
-  <div>
-    <a href="https://github.com/ishersagay" target="_blank">
-      <img src="Github.svg" alt="Github">
-    </a>
-    <a href="https://www.linkedin.com/in/ishersagay/" target="_blank">
-      <img src="Linkedin.svg" alt="Linkedin">
-    </a>
-    <a href="Isher%20Sagay%20(U).pdf" download="Isher%20Sagay%20(U).pdf" target="_blank">
-      <img src="CV%20Down.svg" alt="Download CV">
-    </a>
-    <a>
-      <img src="Instagram.svg" alt="Instagram" >
-    </a>
-  </div>
-  <section>
-    <img src="Corner%20Android.svg" class="bottom__android" alt="Android Logo">
-  </section>
+    <h2 >CONTACTS</h2>
+    <div>
+        <a href="https://github.com/ishersagay" target="_blank">
+            <img src="Images/Github.svg" alt="Github">
+        </a>
+        <a href="https://www.linkedin.com/in/ishersagay/" target="_blank">
+            <img src="Images/Linkedin.svg" alt="Linkedin">
+        </a>
+        <a href="Images/Isher%20Sagay%20(U).pdf" download="Isher%20Sagay%20(U).pdf" target="_blank">
+            <img src="Images/CV%20Down.svg" alt="Download CV">
+        </a>
+        <a>
+            <img src="Images/Instagram.svg" alt="Instagram" >
+        </a>
+    </div>
+    <section>
+        <img src="Images/Corner%20Android.svg" class="bottom__android" alt="Android Logo">
+    </section>
 </footer>
+
+<link rel="stylesheet" type="text/css" href="style.css">
 </html>
