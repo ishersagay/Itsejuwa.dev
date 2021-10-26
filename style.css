@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth; }
+
+body {
+  background-color: #B980F0; }
+  body #section1, body #section2, body #section3, body #home {
+    display: inline-block;
+    height: 100vh;
+    width: 100%; }
+  body header {
+    height: 100vh;
+    width: 100vw; }
+  body header h1 {
+    font-size: 100px;
+    margin-top: 212px;
+    text-align: center; }
+  body header h2 {
+    font-size: 40px;
+    position: relative;
+    text-align: center; }
+  body header img.waves {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    position: absolute; }
+  body .navigation-bar {
+    background-color: #B6F080;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    width: 100%; }
+    body .navigation-bar .nav-bar {
+      margin-left: 436px;
+      margin-top: 28px; }
+    body .navigation-bar h3 {
+      font-size: 30px; }
+    body .navigation-bar a {
+      font-size: 30px;
+      margin-right: 46px;
+      text-decoration: none; }
+  body h2 {
+    font-size: 40px;
+    text-align: center; }
+  body h3 {
+    font-size: 40px;
+    text-align: center; }
+  body .about {
+    margin-top: 80px; }
+  body p {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 45px;
+    text-align: justify;
+    width: 500px; }
+  body .laptop {
+    display: flex;
+    justify-content: center; }
+  body .journey__laptop {
+    height: 250px;
+    width: 290px; }
+  body .leaning__phone {
+    height: 250px;
+    width: 290px; }
+  body .trial {
+    height: 250px;
+    width: 290px; }
+
+footer section {
+  display: flex;
+  justify-content: center;
+  padding: 0; }
+  footer section .bottom__android {
+    margin-left: 89vw; }
+
+@media only screen and (min-device-width: 320px) {
+  body header h1 {
+    font-size: 100px;
+    margin-top: 212px; }
+  body header h2 {
+    font-size: 40px; }
+  body header div.header-titles {
+    margin-top: 900px; }
+  body header img.waves {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    position: absolute; }
+  body .navigation-bar {
+    background-color: #B6F080;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    width: 100%; }
+    body .navigation-bar .nav-bar {
+      margin-left: 4px;
+      margin-top: 0px; }
+    body .navigation-bar h3 {
+      font-size: 40px; }
+    body .navigation-bar a {
+      font-size: 40px;
+      margin-right: 46px;
+      text-decoration: none; }
+  body h2 {
+    font-size: 60px; }
+  body h3 {
+    font-size: 50px; }
+  body .about {
+    margin-top: 80px; }
+  body p {
+    font-size: 32px;
+    padding: 45px;
+    width: 500px; }
+  body .laptop {
+    display: flex;
+    justify-content: center; }
+  body .journey__laptop {
+    height: 200px;
+    width: 138px; }
+  body .projects__style {
+    margin-top: 80px; }
+  body .leaning__phone {
+    height: 250px;
+    width: 290px; }
+  body .skills__style {
+    margin-top: 80px; }
+  body .trial {
+    height: 250px;
+    width: 100px; }
+  body footer section {
+    margin-bottom: 0px; }
+    body footer section .bottom__android {
+      margin-left: 80vw; } }
+
+/*# sourceMappingURL=style.css.map */
