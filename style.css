@@ -73,12 +73,8 @@ body {
     height: 250px;
     width: 290px; }
 
-footer section {
-  display: flex;
-  justify-content: center;
-  padding: 0; }
-  footer section .bottom__android {
-    margin-left: 89vw; }
+footer section .bottom__android {
+  margin-left: 89vw; }
 
 @media only screen and (min-device-width: 320px) {
   body header h1 {
@@ -133,12 +129,22 @@ footer section {
     width: 290px; }
   body .skills__style {
     margin-top: 80px; }
+  body .progBar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px; }
+  body .inner-progressbar {
+    padding: 10px; }
   body .trial {
     height: 250px;
     width: 100px; }
-  body footer section {
+
+  footer section {
     margin-bottom: 0px; }
-    body footer section .bottom__android {
-      margin-left: 80vw; } }
+    footer section .bottom__android {
+      margin-left: 80vw; }
+
+  .contacts__style {
+    padding-left: 325px; } }
 
 /*# sourceMappingURL=style.css.map */
