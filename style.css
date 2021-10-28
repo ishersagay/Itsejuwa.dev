@@ -18,11 +18,46 @@ body header {
 body header h1 {
   font-size: 100px;
   margin-top: 212px;
-  text-align: center; }
+  text-align: center;
+}
+
+
 body header h2 {
   font-size: 40px;
-  position: relative;
   text-align: center; }
+body header .header-titles {
+  position: relative;
+  width: max-content;
+}
+.header-titles::before,
+.header-titles::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.header-titles::before {
+  background: #B980F0;
+  animation: typewriter 4s steps(18) 1s forwards;
+}
+.header-titles::after {
+  width: 0.4em;
+  background: white;
+  animation: typewriter 4s steps(18) 1s forwards,
+  blink 500ms steps(18) infinite;
+}
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
 body header img.waves {
   width: 100%;
   height: auto;
@@ -83,7 +118,10 @@ footer section .bottom__android {
   body header h2 {
     font-size: 40px; }
   body header div.header-titles {
-    margin-top: 900px; }
+
+    margin-top: 900px;
+    margin-left: 250px;
+  }
   body header img.waves {
     width: 100%;
     height: auto;
