@@ -8,70 +8,70 @@
 
 body {
   background-color: #B980F0; }
-  body #section1, body #section2, body #section3, body #home {
-    display: inline-block;
-    height: 100vh;
-    width: 100%; }
-  body header {
-    height: 100vh;
-    width: 100vw; }
-  body header h1 {
-    font-size: 100px;
-    margin-top: 212px;
-    text-align: center; }
-  body header h2 {
-    font-size: 40px;
-    position: relative;
-    text-align: center; }
-  body header img.waves {
-    width: 100%;
-    height: auto;
-    bottom: 0;
-    position: absolute; }
-  body .navigation-bar {
-    background-color: #B6F080;
-    display: flex;
-    flex-direction: row;
-    height: 80px;
-    position: sticky;
-    top: 0;
-    width: 100%; }
-    body .navigation-bar .nav-bar {
-      margin-left: 436px;
-      margin-top: 28px; }
-    body .navigation-bar h3 {
-      font-size: 30px; }
-    body .navigation-bar a {
-      font-size: 30px;
-      margin-right: 46px;
-      text-decoration: none; }
-  body h2 {
-    font-size: 40px;
-    text-align: center; }
-  body h3 {
-    font-size: 40px;
-    text-align: center; }
-  body .about {
-    margin-top: 80px; }
-  body p {
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 45px;
-    text-align: justify;
-    width: 500px; }
-  body .laptop {
-    display: flex;
-    justify-content: center; }
-  body .journey__laptop {
-    height: 250px;
-    width: 290px; }
-  body .leaning__phone {
-    height: 250px;
-    width: 290px; }
-  body .trial {
-    height: 250px;
-    width: 290px; }
+body #section1, body #section2, body #section3, body #home {
+  display: inline-block;
+  height: 100vh;
+  width: 100%; }
+body header {
+  height: 100vh;
+  width: 100vw; }
+body header h1 {
+  font-size: 100px;
+  margin-top: 212px;
+  text-align: center; }
+body header h2 {
+  font-size: 40px;
+  position: relative;
+  text-align: center; }
+body header img.waves {
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  position: absolute; }
+body .navigation-bar {
+  background-color: #B6F080;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  width: 100%; }
+body .navigation-bar .nav-bar {
+  margin-left: 436px;
+  margin-top: 28px; }
+body .navigation-bar h3 {
+  font-size: 30px; }
+body .navigation-bar a {
+  font-size: 30px;
+  margin-right: 46px;
+  text-decoration: none; }
+body h2 {
+  font-size: 40px;
+  text-align: center; }
+body h3 {
+  font-size: 40px;
+  text-align: center; }
+body .about {
+  margin-top: 80px; }
+body p {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 45px;
+  text-align: justify;
+  width: 500px; }
+body .laptop {
+  display: flex;
+  justify-content: center; }
+body .journey__laptop {
+  height: 250px;
+  width: 290px; }
+body .leaning__phone {
+  height: 250px;
+  width: 290px; }
+body .trial {
+  height: 250px;
+  width: 290px; }
 
 footer section .bottom__android {
   margin-left: 89vw; }
@@ -93,19 +93,23 @@ footer section .bottom__android {
     background-color: #B6F080;
     display: flex;
     flex-direction: row;
+    align-items: center;
     height: 80px;
     position: sticky;
     top: 0;
-    width: 100%; }
-    body .navigation-bar .nav-bar {
-      margin-left: 4px;
-      margin-top: 0px; }
-    body .navigation-bar h3 {
-      font-size: 40px; }
-    body .navigation-bar a {
-      font-size: 40px;
-      margin-right: 46px;
-      text-decoration: none; }
+    width: 100%;
+  }
+  body .navigation-bar .nav-bar {
+    margin-left: 4px;
+    margin-top: 0px; }
+  body .navigation-bar h3 {
+    font-size: 40px; }
+  body .navigation-bar a {
+    font-size: 40px;
+    margin-right: 46px;
+    color: white;
+    text-decoration: none;
+  }
   body h2 {
     font-size: 60px; }
   body h3 {
@@ -132,19 +136,28 @@ footer section .bottom__android {
   body .progBar {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 40px; }
+    padding: 40px;
+  }
+  body .progress {
+    height: 2rem;
+    border-radius: .5rem;
+    font-size: large;
+  }
   body .inner-progressbar {
-    padding: 10px; }
+    padding: 10px;
+  }
   body .trial {
     height: 250px;
     width: 100px; }
 
   footer section {
     margin-bottom: 0px; }
-    footer section .bottom__android {
-      margin-left: 80vw; }
+  footer section .bottom__android {
+    margin-left: 80vw; }
 
   .contacts__style {
-    padding-left: 325px; } }
+    padding-left: 325px; }
+
+}
 
 /*# sourceMappingURL=style.css.map */
