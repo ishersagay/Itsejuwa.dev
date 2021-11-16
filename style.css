@@ -29,6 +29,12 @@ body header .header-titles {
   position: relative;
   width: max-content;
 }
+body header div.header-titles {
+  margin-left: 750px;
+}
+body header img.android__top {
+  margin-left: 430px;
+}
 .header-titles::before,
 .header-titles::after {
   content: "";
@@ -67,18 +73,21 @@ body .navigation-bar {
   background-color: #B6F080;
   display: flex;
   flex-direction: row;
+  align-items: center;
   height: 80px;
   position: sticky;
   top: 0;
   width: 100%; }
 body .navigation-bar .nav-bar {
   margin-left: 436px;
-  margin-top: 28px; }
+   }
 body .navigation-bar h3 {
   font-size: 30px; }
 body .navigation-bar a {
-  font-size: 30px;
+  font-size: 30px;,
   margin-right: 46px;
+  margin-left: 120px;
+  color: white;
   text-decoration: none; }
 body h2 {
   font-size: 40px;
@@ -100,18 +109,38 @@ body .laptop {
   justify-content: center; }
 body .journey__laptop {
   height: 250px;
-  width: 290px; }
+  width: 290px;
+}
+body .projects__style {
+  margin-top: 80px; }
 body .leaning__phone {
   height: 250px;
   width: 290px; }
+body .skills__style {
+  margin-top: 80px; }
+body .progBar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+}
+body .progress {
+  height: 2rem;
+  border-radius: .5rem;
+  font-size: large;
+}
+body .inner-progressbar {
+  padding: 10px;
+}
 body .trial {
   height: 250px;
   width: 290px; }
 
 footer section .bottom__android {
   margin-left: 89vw; }
+.contacts__style {
+  padding-left: 800px; }
 
-@media only screen and (min-device-width: 320px) {
+@media only screen and (max-device-width: 500px) {
   body header h1 {
     font-size: 100px;
     margin-top: 212px; }
@@ -121,6 +150,9 @@ footer section .bottom__android {
 
     margin-top: 900px;
     margin-left: 250px;
+  }
+  body header img.android__top {
+    margin-left: 0px;
   }
   body header img.waves {
     width: 100%;
@@ -139,12 +171,13 @@ footer section .bottom__android {
   }
   body .navigation-bar .nav-bar {
     margin-left: 4px;
-    margin-top: 0px; }
+    }
   body .navigation-bar h3 {
     font-size: 40px; }
   body .navigation-bar a {
     font-size: 40px;
     margin-right: 46px;
+    margin-left: 0px;
     color: white;
     text-decoration: none;
   }
