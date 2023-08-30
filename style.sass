@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap")
+$backgroundColour: #220d68
+$primaryColour: #99d6a8
+$secondaryColour: #dcafa4
+$ternaryColour: #f89392
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+  list-style: none
+  text-decoration: none
+  background-color: $backgroundColour
+
+  li, a, button
+    font-family: "Roboto Slab", sans-serif
+    font-weight: 500
+    font-size: 16px
+    color: $primaryColour
+    text-decoration: none
+
+  header
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    padding: 20px 10%
+
+  .logo
+    cursor: pointer
+    margin-right: auto
+
+  .nav__links
+    list-style: none
+    li
+      display: inline-block
+      padding: 0px 20px
+      a
+        transition: all 0.3s ease 0s
+      a:hover
+        color: $ternaryColour
+
+  button
+    margin-left: 20px
+    padding: 9px 25px
+    background-color: #f89392
+    border: none
+    border-radius: 50px
+    cursor: pointer
+    transition: all 0.3s ease 0s
+
+  .container
+    height: 600px
+    padding: 20px
+    margin-left: 40px
+    margin-right: 40px
+    display: flex
+    flex-direction: row-reverse
+    justify-content: space-between
+    align-items: center
+    gap: 40px
+    img
+      width: 100%
+      height: 500px
+
+  .hero-text
+    h1
+      font-size: 3.3rem
+      margin-bottom: 8px
+      color: $primaryColour
+    h2
+      font-size: 2.3rem
+      margin-bottom: 10px
+      color: $secondaryColour
+    p
+      font-size: 1.4rem
+      margin-bottom: 12px
+      color: $ternaryColour
+
