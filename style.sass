@@ -49,7 +49,9 @@ $ternaryColour: #f89392
     transition: all 0.3s ease 0s
 
   .container
-    height: 600px
+    height: 100vh
+    max-width: 90%
+    width: 100vw
     padding: 20px
     margin-left: 40px
     margin-right: 40px
@@ -59,7 +61,6 @@ $ternaryColour: #f89392
     align-items: center
     gap: 40px
     img
-      width: 100%
       height: 500px
 
   .hero-text
@@ -75,4 +76,10 @@ $ternaryColour: #f89392
       font-size: 1.4rem
       margin-bottom: 12px
       color: $ternaryColour
+      text-transform: capitalize
 
+  .slide
+    width: 100%
+    height: 100vh
+    //background-color: linear-gradient(454deg, $backgroundColour #9E7990) !important
+    background: linear-gradient(454deg,$backgroundColour, #9E7990)
